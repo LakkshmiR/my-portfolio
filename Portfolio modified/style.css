@@ -1,0 +1,457 @@
+* {
+  font-family: "Cinzel", serif;
+}
+body {
+  background-color: #1c1f2a;
+}
+.font {
+  font-family: "Cinzel", serif;
+}
+
+.Portfolio {
+  font-size: 50px;
+  float: left;
+  padding-left: 100px;
+  padding-top: 70px;
+  font-weight: bold;
+}
+
+.HomeElements {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 110px;
+  padding-right: 100px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.HomeElements a {
+  color: white;
+
+  text-decoration: none;
+}
+.nav-link {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: #a74aff;
+}
+
+span {
+  margin-left: 5em;
+}
+
+span1 {
+  margin-left: 1em;
+}
+
+span2 {
+  margin-left: 3em;
+}
+
+#HomeElements:hover {
+  color: #a74aff;
+}
+
+.commonintroelements {
+  padding-top: 100px;
+  padding-left: 100px;
+  font-family: "Cinzel", serif;
+}
+
+.Hello {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 100px;
+}
+.lakk {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+.about {
+  font-size: 50px;
+  color: white;
+  padding-top: 320px;
+  text-align: center;
+}
+
+.abtinside {
+  font-size: 30px;
+  color: white;
+}
+
+/* Typeeffect */
+.containertype {
+  display: inline-block;
+}
+
+.typed-out {
+  overflow: hidden;
+  border-right: 0.15em solid white;
+  white-space: nowrap;
+  animation: typing 2.5s steps(22, end) forwards;
+  font-size: 35px;
+  font-weight: bold;
+  color: #4682b4;
+  width: 0;
+  background: linear-gradient(90deg, #ff6ec4, #a74aff, #4facfe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.wrapper {
+  color: white;
+  position: relative;
+  width: 1000px;
+  height: auto;
+  box-shadow: 0 0 20px #a74aff;
+  outline: 2px solid rebeccapurple;
+  border-radius: 10px;
+  font-size: 30px;
+  float: right;
+  padding: 20px;
+  margin-right: 300px;
+  margin-top: -275px;
+  transition: 0.5s ease;
+}
+.wrapper:hover {
+  transform: scale(1.05);
+}
+
+.btncolor {
+  color: white;
+}
+.buttonresume {
+  float: right;
+  background: linear-gradient(90deg, #b000b5, #7a00cc, #4b0055);
+  width: 20%;
+  height: 60px;
+  margin-top: 15px;
+  border-radius: 10px;
+  margin-right: 625px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 15px #7a00cc;
+}
+
+.buttonresume:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 25px #7a00cc;
+}
+
+/* EDUCATION DETAILS########################################## */
+
+.spaceedu {
+  padding-top: 410px;
+}
+.edu {
+  color: #a74aff;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.edup {
+  color: #dcdfe5;
+  font-size: 20px;
+  text-align: center;
+}
+
+.univbox {
+  width: 1000px;
+  outline: solid 1px #7a00cc;
+  margin-left: 450px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #a74aff;
+  padding-bottom: 1em;
+  transition: 0.5s ease;
+}
+.univbox:hover {
+  transform: scale(1.05);
+}
+.Univ {
+  color: white;
+  font-weight: bold;
+  color: #a74aff;
+  background: linear-gradient(90deg, #b000b5, #7a00cc, #4b0055);
+  width: auto;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 0;
+}
+.univp {
+  color: white;
+  font-size: 30px;
+  padding-left: 1em;
+}
+
+.univp1 {
+  color: white;
+  font-size: 23px;
+  padding-left: 3em;
+}
+
+.univmarks {
+  color: white;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.cgpa-yr {
+  display: flex;
+}
+.btncgpa {
+  background: linear-gradient(90deg, #b000b5, #7a00cc, #4b0055);
+  width: 10%;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  margin-left: 200px;
+  text-align: center;
+  padding-top: 8px;
+}
+.btngrad {
+  background: linear-gradient(90deg, #b000b5, #7a00cc, #4b0055);
+  width: 15%;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 8px;
+  margin-left: 190px;
+}
+
+.btnper {
+  background: linear-gradient(90deg, #b000b5, #7a00cc, #4b0055);
+  width: 15%;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 8px;
+  margin-left: 200px;
+}
+
+.btncomp {
+  background: linear-gradient(90deg, #b000b5, #7a00cc, #4b0055);
+  width: 15%;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  margin-left: 100px;
+
+  text-align: center;
+  padding-top: 8px;
+}
+
+/* SKILLS############################################## */
+.spaceskill {
+  padding-top: 410px;
+}
+.wrapskillinnerfront {
+  position: relative;
+  width: 500px;
+  height: auto;
+  outline: solid 1px #7a00cc;
+  margin-left: 100px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #a74aff;
+  padding-bottom: 5px;
+  transition: 0.5s ease;
+}
+.wrapskillinnerfront:hover {
+  transform: scale(1.1);
+}
+
+.skillp {
+  color: white;
+  padding: 1em;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.h1skill {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  height: 60px;
+  background: linear-gradient(90deg, #b000b5, #7a00cc, #4b0055);
+}
+
+.wrapskillinnerprg {
+  width: 450px;
+  height: auto;
+  outline: solid 1px #7a00cc;
+  margin-left: 750px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #a74aff;
+  padding-bottom: 5px;
+  margin-top: -351px;
+  margin-right: 730px;
+  float: right;
+  transition: 0.5s ease;
+}
+.wrapskillinnerprg:hover {
+  transform: scale(1.1);
+}
+
+.wrapskillinnerother {
+  width: 450px;
+  height: auto;
+  outline: solid 1px #7a00cc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #a74aff;
+  padding-bottom: 5px;
+  margin-top: -400px;
+  margin-right: 150px;
+  float: right;
+  transition: 0.5s ease;
+}
+.wrapskillinnerother:hover {
+  transform: scale(1.1);
+}
+/* Internships################################## */
+.spaceintern {
+  padding-top: 410px;
+}
+.internbox {
+  width: 1300px;
+  outline: solid 1px #7a00cc;
+  margin-left: 300px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #a74aff;
+  padding-bottom: 1em;
+}
+
+.interninnerbox {
+  width: 700px;
+  outline: solid 1px #7a00cc;
+  margin-left: 300px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px #a74aff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Contact##################################### */
+.spacecontact {
+  padding-top: 410px;
+}
+.contactbox {
+  width: 600px;
+  outline: solid 1px #7a00cc;
+  margin-left: 650px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #a74aff;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+#resume-viewer {
+  display: none;
+  margin-top: 20px;
+}
+.youtube-icon {
+  font-size: 33px;
+
+  color: #fff;
+  position: relative;
+  left: 880px;
+  bottom: 30px;
+  transition: 0.5s ease;
+}
+.youtube-icon:hover {
+  transform: scale(1.2);
+  color: #a74aff;
+}
+.insta-icon {
+  font-size: 32px;
+  position: relative;
+  left: 910px;
+  bottom: 30px;
+  color: #fff;
+  transition: 1s ease;
+}
+.insta-icon:hover {
+  transform: scale(1.2);
+  color: #a74aff;
+}
+.github-icon {
+  font-size: 28px;
+  color: #fff;
+  position: relative;
+  bottom: 32px;
+  left: 850px;
+  transition: 0.5s ease;
+}
+.github-icon:hover {
+  transform: scale(1.2);
+  color: #a74aff;
+}
+.final-line {
+  color: white;
+  margin-left: 825px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.name {
+  font-size: 25px;
+  color: #a74aff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-left: 860px;
+}
+.HomeElementslast {
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 25px;
+  padding-right: 100px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.HomeElementslast a {
+  color: white;
+
+  text-decoration: none;
+}
+.icons {
+  margin-top: 20px;
+  color: #f0f0f0;
+}
+.last-segment {
+  background: #1c1c1c;
+  padding: 20px;
+}
